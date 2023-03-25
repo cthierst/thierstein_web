@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Chloe Thierstein"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: chloe_thierstein_resume.pdf
+        text: Resume
+      - href: papers.qmd
+        text: Papers
+        
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
